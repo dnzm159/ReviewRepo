@@ -12,5 +12,11 @@ public class CalcReview {
 	public int getResult() {
 		return result;
 	}
-
+	public void sub(int x, int y){
+		result=x-y;
+	}
+	
+	public void mul(int x, int y){
+		result=x*y;
+	}
 }
