@@ -18,7 +18,7 @@ public class ReviewCalcTest {
 	{
 		CalcReview r = new CalcReview();
 		r.multi(10,3);
-		assertEquals(10,r.getResult());
+		assertEquals(20,r.getResult());
 	}
 
 }
