@@ -13,13 +13,6 @@ public class ReviewCalcTest {
 		assertEquals(30, r.getResult());	
 	}
 	
-	@Test
-	public void testMulti()
-	{
-		CalcReview r = new CalcReview();
-		r.multi(10,3);
-		assertEquals(20,r.getResult());
-	}
 
 	@Test
 	public void testSub(){
